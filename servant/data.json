@@ -2,105 +2,106 @@
   "company": [
     {
       "company": {
-        "name": "TZMO S.A.",
+        "name": "Nec Tempus",
         "contactDetails": {
           "address": {
             "country": {
-              "name": "Poland",
-              "code": "PL"
+              "name": "Netherlands",
+              "code": "NL"
             },
             "city": {
-              "name": "Toruń",
-              "code": "87-100"
+              "name": "Middelburg",
+              "code": "8480 DI"
             },
             "street": {
-              "name": "Żółkiewskiego",
-              "streetNumber": "20",
-              "streetFlat": "/ 26"
+              "name": "Non Avenue",
+              "streetNumber": "156",
+              "streetFlat": "-2217"
             }
           },
           "phone": {
-            "phonePrefix": "+48",
-            "phoneNumber": "56 451 91 00"
+            "phonePrefix": "+31",
+            "phoneNumber": "(0972) 37665337"
           },
-          "wwwPage": "tzmo-global.com"
+          "wwwPage": "nonummy.net"
         },
         "branch": [
-          "dressing materials",
-          "medical devices"
+          "Accounting",
+          "Quality Assurance"
         ],
         "registerDetails": {
           "registerDate": "2001-06-07",
-          "tin": "879-01-66-790",
-          "regon": "870514656",
-          "krs": "0000011286"
+          "tin": "542-72-74-966",
+          "GUID": "76074003-5566-55DE-9917-A8A4E63DEB66",
+          "krs": "_0000728215"
         }
       }
     },{
       "company": {
-        "name": "Alteris S.A.",
+        "name": "Vel Inc.",
         "contactDetails": {
           "address": {
             "country": {
-              "name": "Poland",
-              "code": "PL"
+              "name": "Netherlands",
+              "code": "NL"
             },
             "city": {
-              "name": "Katowice",
-              "code": "40-514"
+              "name": "Haren",
+              "code": "0284 DH"
             },
             "street": {
-              "name": "Ceglana",
-              "streetNumber": "35",
-              "streetFlat": "."
+              "name": "Mauris St.",
+              "streetNumber": "#930-7632",
+              "streetFlat": "Ap"
             }
           },
           "phone": {
-            "phonePrefix": "+48",
-            "phoneNumber": "56 669 40 00"
+            "phonePrefix": "+31",
+            "phoneNumber": "(0327) 58811472"
           },
-          "wwwPage": "www.alteris.pl"
+          "wwwPage": "enimao.nl"
         },
-        "branch": ["IT", "radiology", "medicine"],
+        "branch": ["Sales", "Public Relations", "Media Relations"],
         "registerDetails": {
           "registerDate": "2011-07-18",
-          "tin": "631-24-21-111",
-          "regon": "278261920",
-          "krs": "0000391749",
+          "tin": "053-54-96-056",
+          "GUID": "4AC2D235-6180-C667-252F-77A29E428D32",
+          "krs": "_0000241320",
           "shareCapital": 500000
         }
       }
-    },{
+    },
+    {
       "company": {
-        "name": "NEUCA S.A.",
+        "name": "Nibh LLP",
         "contactDetails": {
           "address": {
             "country": {
-              "name": "Poland",
-              "code": "PL"
+              "name": "Netherlands",
+              "code": "NL"
             },
             "city": {
-              "name": "Toruń",
-              "code": "87-100"
+              "name": "Alkmaar",
+              "code": "1826 RY"
             },
             "street": {
-              "name": "Forteczna",
-              "streetNumber": "35-37",
+              "name": "Eleifend Avenue",
+              "streetNumber": "8766",
               "streetFlat": "A"
             }
           },
           "phone": {
-            "phonePrefix": "+48",
-            "phoneNumber": "56 669 40 00"
+            "phonePrefix": "+31",
+            "phoneNumber": "(06495) 4743585"
           },
-          "wwwPage": "www.neuca.pl"
+          "wwwPage": "www.nibh.com.nl"
         },
-        "branch": ["medicine", "pharmacy", "IT"],
+        "branch": ["R&D", "Pharmacy", "IT"],
         "registerDetails": {
           "registerDate": "2001-10-15",
-          "nip": "879-00-17-162",
-          "regon": "870227804",
-          "krs": "0000049872",
+          "tin": "535-09-56-005",
+          "GUID": "75AB4CAC-76E2-7CA7-6794-4977CA99CEAA",
+          "krs": "_0000056372",
           "shareCapital": 1000000
         }
       }

@@ -13,7 +13,7 @@ class Container extends Component {
     render() {
         return (
             <Wrap>
-                <Card sx={{minWidth: 375}}>
+                <Card sx={{minWidth: 525}}>
                     <CardContent>{this.props.children}</CardContent>
                 </Card>
             </Wrap>

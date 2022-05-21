@@ -16,7 +16,7 @@ o(THING, hasWiderScopeThat, SCOPE) :-
     nth0(M, SCOPES, SCOPE),
     M >= N.
 
-% infoApp - a simple application for general information purposes
+% infoApp - a simple application for general information purposes.
 o(infoApp, hasType, container).
 o(infoApp, hasOne, simpleHeader).
     o(simpleHeader, hasType, titleBar).
@@ -25,14 +25,14 @@ o(infoApp, hasOne, infoBody).
     o(infoBody, hasType, selector).
     o(infoBody, reference, topic).
 
-% name - a language unit by which a person or thing is known
+% Name - a language unit by which a person or thing is known.
 o(name, hasType, stringType).
 
-% code - a coding system used for transmitting messages requiring brevity or secrecy
+% Code - a coding system used for transmitting messages requiring brevity or secrecy.
 o(code, isFor, brevity).
 o(code, hasType, regexType).
 
-% address - the place where a person or company can be located or contacted with by post
+% Address - the place where a person or company can be located or contacted with by post.
 o(address, hasType, flatText).
 o(address, hasOne, country).
     o(country, hasScope, country).
@@ -55,7 +55,7 @@ o(address, hasOne, street).
     o(street, hasOne, streetFlat).
         o(streetFlat, hasType, stringType).
 
-% phone - the number is used in calling a particular telephone
+% Phone - the number is used in calling a particular telephone.
 o(phone, hasOne, phonePrefix).
     o(phonePrefix, hasType, regexType).
     o(phonePrefix, hasScope, country).

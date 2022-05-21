@@ -1,10 +1,10 @@
 /**
  * This is an alternative way to implement logic programming using an adapter.
- * This module only supports the "fact" predicate, simple rules, and queries.
+ * This module only supports the "fact" predicate, simple rules and queries.
  * It doesn't support cut, negation, lists, built-in predicates and many others.
  * It should cover files "domain.pl" and "user.pl", that is the browser part,
  * the rest should be defined in the Prolog file - "base.pl", intended to be retrieved
- * from the server. Go to the "example.js" file to see how it works.
+ * from the custodian. Go to the "example.js" file to see how it works.
  */
 
 const exec = require('child-process-promise').exec;
@@ -15,7 +15,7 @@ const exec = require('child-process-promise').exec;
 const [atoms, variables, jokers] = [[], [], []];
 
 /**
- * Mapping the set name into a prefix
+ * Mapping the set name into a prefix.
  */
 const map = set => set === atoms ? 'a' : set === variables ? 'A' : '_';
 
@@ -28,7 +28,7 @@ function* are(set, i = 0) {
 
 /**
  * We will expand this variable with further clauses.
- * */
+ */
 let clauses = '';
 
 /**
@@ -60,7 +60,7 @@ const rule = (...terms) => {
 
 /**
  * This is how we query the knowledge base.
- * Returns an array with sets of substituted variables or in fact the values they contain.
+ * Returns an array with sets of substituted variables (in fact the values they contain).
  * True-false queries are not supported.
  */
 const ask = async (...terms) => {

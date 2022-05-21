@@ -1,8 +1,8 @@
-% Here developer descrbe the model and the problem domain.
+% Here developer describe the model and the problem domain.
 
 :- multifile o/3.
 
-% thisApp is a general information apllication about companies used only in the particular country..
+% thisApp is a general information application about companies used only in the particular country.
 o(thisApp, isa, infoApp).
 o(thisApp, hasPurpose, general).
 o(thisApp, hasScope, country).
