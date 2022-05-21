@@ -1,0 +1,109 @@
+{
+  "company": [
+    {
+      "company": {
+        "name": "TZMO S.A.",
+        "contactDetails": {
+          "address": {
+            "country": {
+              "name": "Poland",
+              "code": "PL"
+            },
+            "city": {
+              "name": "Toruń",
+              "code": "87-100"
+            },
+            "street": {
+              "name": "Żółkiewskiego",
+              "streetNumber": "20",
+              "streetFlat": "/ 26"
+            }
+          },
+          "phone": {
+            "phonePrefix": "+48",
+            "phoneNumber": "56 451 91 00"
+          },
+          "wwwPage": "tzmo-global.com"
+        },
+        "branch": [
+          "dressing materials",
+          "medical devices"
+        ],
+        "registerDetails": {
+          "registerDate": "2001-06-07",
+          "tin": "879-01-66-790",
+          "regon": "870514656",
+          "krs": "0000011286"
+        }
+      }
+    },{
+      "company": {
+        "name": "Alteris S.A.",
+        "contactDetails": {
+          "address": {
+            "country": {
+              "name": "Poland",
+              "code": "PL"
+            },
+            "city": {
+              "name": "Katowice",
+              "code": "40-514"
+            },
+            "street": {
+              "name": "Ceglana",
+              "streetNumber": "35",
+              "streetFlat": "."
+            }
+          },
+          "phone": {
+            "phonePrefix": "+48",
+            "phoneNumber": "56 669 40 00"
+          },
+          "wwwPage": "www.alteris.pl"
+        },
+        "branch": ["IT", "radiology", "medicine"],
+        "registerDetails": {
+          "registerDate": "2011-07-18",
+          "tin": "631-24-21-111",
+          "regon": "278261920",
+          "krs": "0000391749",
+          "shareCapital": 500000
+        }
+      }
+    },{
+      "company": {
+        "name": "NEUCA S.A.",
+        "contactDetails": {
+          "address": {
+            "country": {
+              "name": "Poland",
+              "code": "PL"
+            },
+            "city": {
+              "name": "Toruń",
+              "code": "87-100"
+            },
+            "street": {
+              "name": "Forteczna",
+              "streetNumber": "35-37",
+              "streetFlat": "A"
+            }
+          },
+          "phone": {
+            "phonePrefix": "+48",
+            "phoneNumber": "56 669 40 00"
+          },
+          "wwwPage": "www.neuca.pl"
+        },
+        "branch": ["medicine", "pharmacy", "IT"],
+        "registerDetails": {
+          "registerDate": "2001-10-15",
+          "nip": "879-00-17-162",
+          "regon": "870227804",
+          "krs": "0000049872",
+          "shareCapital": 1000000
+        }
+      }
+    }
+  ]
+}
